@@ -1,7 +1,7 @@
 # liferay7-springmvc-portlet
 Example Spring MVC Portlet that can be deployed as a WAB on Liferay 7
 
-In this project you find an examples of:
+In this project you find an example of:
 * Maven build using maven-bundle-plugin
 * Maven profile for deploying to a local Liferay instance (requires maven properties to be set up as described [GitHub](https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/deploying-liferay-plugins-with-maven) )
 * Spring WebMVC Portlet version 4.2.5
