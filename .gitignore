@@ -11,4 +11,6 @@ buildNumber.properties
 /.classpath
 /.project
 /.tern-project
+spring-test-portlet.iml
+/.idea/
 /bin/
