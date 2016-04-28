@@ -1,17 +1,20 @@
 package com.vernaillen.liferay.service;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Service;
 
-import com.vernaillen.liferay.model.Hello;
+import com.vernaillen.liferay.model.User;
 
 @Service
 public class HelloService {
 
-	public Hello sayHello() {
+    private static final Log LOGGER = LogFactory.getLog(HelloService.class);
+    
+	public void sayHelloToTheLogs(User user) {
 
-        Hello hello = new Hello();
-        hello.setMessage("Hello from model object");
-        
-        return hello;
+		if (user != null) {
+			LOGGER.info("Hello " + user.getFirstName());
+		}
 	}
 }

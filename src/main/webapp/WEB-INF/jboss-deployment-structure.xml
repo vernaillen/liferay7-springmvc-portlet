@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.1">
+    <deployment>
+        <dependencies>
+            <module name="com.liferay.portal" slot="main" export="true" />
+            <module name="org.jboss.logging" />
+        </dependencies>
+        <exclusions>
+            <module name="javax.el.api"/>
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
