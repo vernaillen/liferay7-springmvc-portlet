@@ -5,23 +5,15 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
 	version="2.0">
 	<portlet>
-		<portlet-name>liferay7-springmvc-portlet</portlet-name>
-		<display-name>liferay7-springmvc-portlet</display-name>
+		<portlet-name>springmvc-example</portlet-name>
 		<portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
-		<init-param>
-			<name>contextConfigLocation</name>
-			<value>/WEB-INF/spring/springmvc-portlet.xml</value>
-		</init-param>
-		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
 			<portlet-mode>view</portlet-mode>
 		</supports>
 		<resource-bundle>content.Language</resource-bundle>
 		<portlet-info>
-			<title>Spring MVC Portlet</title>
-			<short-title>liferay7-springmvc-portlet</short-title>
-			<keywords>liferay7-springmvc-portlet</keywords>
+			<title>Spring MVC Example Portlet</title>
 		</portlet-info>
 	</portlet>
 </portlet-app>

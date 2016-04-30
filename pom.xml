@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.vernaillen.liferay</groupId>
-	<artifactId>spring-test-portlet</artifactId>
+	<artifactId>spring-example-portlet</artifactId>
 	<version>0.0.2</version>
 	<packaging>war</packaging>
 
 	<name>liferay7-springmvc-portlet</name>
-	<description>Liferay 7 Spring MVC Portlet</description>
+	<description>Liferay 7 Spring MVC Example Portlet</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

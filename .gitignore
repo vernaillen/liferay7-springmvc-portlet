@@ -14,3 +14,4 @@ buildNumber.properties
 spring-test-portlet.iml
 /.idea/
 /bin/
+/.springBeans

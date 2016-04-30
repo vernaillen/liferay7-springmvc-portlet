@@ -3,6 +3,6 @@
 
 <display>
 	<category name="Vernaillen">
-		<portlet id="liferay7-springmvc-portlet" />
+		<portlet id="springmvc-example" />
 	</category>
 </display>

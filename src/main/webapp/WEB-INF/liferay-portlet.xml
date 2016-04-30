@@ -3,7 +3,7 @@
 
 <liferay-portlet-app>
 	<portlet>
-		<portlet-name>liferay7-springmvc-portlet</portlet-name>
+		<portlet-name>springmvc-example</portlet-name>
 		<instanceable>false</instanceable>
 		<private-request-attributes>false</private-request-attributes>
 		<private-session-attributes>false</private-session-attributes>

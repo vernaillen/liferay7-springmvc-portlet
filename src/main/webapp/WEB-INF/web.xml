@@ -7,17 +7,6 @@
 
 	<display-name>liferay7-springmvc-portlet</display-name>
 
-	<context-param>
-		<param-name>defaultHtmlEscape</param-name>
-		<param-value>true</param-value>
-	</context-param>
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring/applicationContext.xml</param-value>
-	</context-param>
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
 	<servlet>
 		<servlet-name>ViewRendererServlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.ViewRendererServlet</servlet-class>
