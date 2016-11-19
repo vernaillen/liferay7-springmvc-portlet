@@ -6,6 +6,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.service.UserLocalServiceUtil;
 import com.liferay.portal.kernel.util.PortalUtil;
 import com.vernaillen.liferay.model.User;
 
@@ -21,6 +22,8 @@ public final class LiferayUtil {
 		
 		try {
 			com.liferay.portal.kernel.model.User lrUser = PortalUtil.getUser(request);
+			
+			LOGGER.info("usercount: " + UserLocalServiceUtil.getUsersCount());
 
 			User user = new User();
 			if (lrUser != null) {
